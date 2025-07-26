@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja Bastos Antunes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <header id="cabecalho">
+        <div class="navbar navbar-expand-lg">
+            <div class="container">
+                <div>
+                    <h1>Andréia Bastos</h1>
+                    <h6>Women's Fashion with Style.</h6>
+                </div>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="colapse navbar-collapse justify-content-end" id="menu">
+                    <ul class="nav nav-pills navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#inicio">início</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#roupas">Roupas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#joias">Jóias</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#calcados">Calçados</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contato">Contato</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>       
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho" class="container">
+        <section id="carrossel">
+            <div class="container">
+                <div id="carousel-exemplo" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div data-bs-interval="3000" class="carousel-item active">
+                            <img class="d-block w-100" src="./imagens/portrait-4599559_960_720.jpg" alt="">
+                        </div>
+                        <div data-bs-interval="3000" class="carousel-item">
+                            <img class="d-block w-100" src="./imagens/woman-5667299_960_720.jpg" alt="">
+                        </div>
+                        <div data-bs-interval="3000" class="carousel-item">
+                            <img class="d-block w-100" src="./imagens/woman-1284411_960_720.jpg" alt="">
+                        </div>
+                    </div>
+                    <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next" type="button">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                    <div class="carousel-indicators">
+                        <button data-bs-target="#carousel-exemplo" class="active" data-bs-slide-to="0"></button>
+                        <button data-bs-target="#carousel-exemplo" data-bs-slide-to="1"></button>
+                        <button data-bs-target="#carousel-exemplo" data-bs-slide-to="2"></button>
+                    </div>
+                </div>
+            </div> 
+        </section>
+        <section id="inicio">
+            <h2>início</h2>
+            <div class="container">
+            <p>
+                A Loja Andréia Bastos mostra, inovação, conforto e atendimento de qualidade. Buscando a oferecer ao seu cliente uma experiência em moda, planejada desde o layout das lojas ao seu marketing olfativo.  Não queremos somente comercializar um produto, e sim oferecer um estilo de vida aos nossos clientes, aliando bom atendimento a produtos de qualidade em um ambiente agradável.
+            </p>
+            <p>
+                Fazemos pesquisa em moda, para que nossos clientes possam desfrutar do que é visto nas passarelas internacionais em um curto espaço de tempo. Atualizações diárias, novidades e dicas sobre moda são parte de nossa rotina em nossas mídias sociais. 
+            </p>
+            </div>
+        </section>
+        <section id="roupas">
+            <h2>Roupas</h2>
+            <div class="container-estoque">
+                <div class="row">
+                    <div class="col-4">
+                        <div class="card text-bg-dark">
+                            <div class="card-header">
+                                <h4>Roupas</h4>
+                            </div>
+                            <img  src="./imagens/girl-5978781_1280.jpg" alt="" srcset="">
+                            <div class="card-body">
+                                <p class="card-text">
+                                    <h6> Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h6>
+                                </p>
+                                <a href="#" class="btn btn-info">Estoque</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card text-bg-dark">
+                            <div class="card-header">
+                                <h4>Roupas</h4>
+                            </div>
+                            <img  src="./imagens/girl-487053_1280.jpg" alt=""srcset="">
+                            <div class="card-body">
+                                <p class="card-text">
+                                    <h6> Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h6>
+                                </p>
+                                <a href="#" class="btn btn-info">Estoque</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card text-bg-dark">
+                            <div class="card-header">
+                                <h4>Roupas</h4>
+                            </div>
+                            <img  src="./imagens/woman-5679284_1280.jpg" alt="" srcset="">
+                            <div class="card-body">
+                                <p class="card-text">
+                                    <h6> Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h6>
+                                </p>
+                                <a href="#" class="btn btn-info">Estoque</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="joias">
+            <h2>Jóias</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-4">
+                        <div class="card text-bg-dark">
+                            <div class="card-header">
+                                <h4>Jóias</h4>
+                            </div>
+                            <img src="./imagens/gold-9653912_1280.webp" alt="" srcset="">
+                            <div class="card-body">
+                                <p class="card-text">
+                                    <h6> Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h6>
+                                </p>
+                                <a href="#" class="btn btn-info">Estoque</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card text-bg-dark">
+                            <div class="card-header">
+                                <h4>Jóias</h4>
+                            </div>
+                            
+                            <img  src="./imagens/jewel-7389356_1280.jpg" alt=""srcset="">
+                            
+                            <div class="card-body">
+                                <p class="card-text">
+                                    <h6> Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h6>
+                                </p>
+                                <a href="#" class="btn btn-info">Estoque</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card text-bg-dark">
+                            <div class="card-header">
+                                <h4>Jóias</h4>
+                            </div>
+                            
+                            <img src="./imagens/ring-5972204_1280.jpg" alt="" srcset="">
+                            
+                            <div class="card-body">
+                                <p class="card-text">
+                                    <h6> Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h6>
+                                </p>
+                                <a href="#" class="btn btn-info">Estoque</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="calcados">
+            <h2>Calçados</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-4">
+                        <div class="card text-bg-dark">
+                            <div class="card-header">
+                                <h4>Calçados</h4>
+                            </div>
+                            <img src="./imagens/shoes-6701631_1280.jpg" alt="" srcset="">
+                            <div class="card-body">
+                                <p class="card-text">
+                                    <h6> Lorem ipsum dolor sit, amet consectetur adipisicing elit..</h6>
+                                </p>
+                                <a href="#" class="btn btn-info">Estoque</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card text-bg-dark">
+                            <div class="card-header">
+                                <h4>Calçados</h4>
+                            </div>
+                            <img src="./imagens/shoes-2538424_1280.jpg" alt=""srcset="">
+                            <div class="card-body">
+                                <p class="card-text">
+                                    <h6> Lorem ipsum dolor sit, amet consectetur adipisicing elit..</h6>
+                                </p>
+                                <a href="#" class="btn btn-info">Estoque</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card text-bg-dark">
+                            <div class="card-header">
+                                <h4>Calçados</h4>
+                            </div>
+                            <img src="./imagens/portrait-4297705_1280.jpg" alt="" srcset="">
+                            <div class="card-body">
+                                <p class="card-text">
+                                    <h6> Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h6>
+                                </p>
+                                <a href="#" class="btn btn-info">Estoque</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contato">
+            <h2>Contato</h2>
+            <ul class="list">
+                <li><a href="#" title="Siga-nos no Intagram">
+                    <img src="./imagens/instagram.png" alt="logo do Instagram"/></a>
+                </li>
+                <li>
+                    <a href="#" title="Siga-nos no Facebook">
+                    <img src="./imagens/facebook.png" alt="logo do Facebook"/></a>
+                </li>
+                <li>
+                    <a href="#" title="Siga-nos no whatsapp">
+                    <img src="./imagens/whatsapp.webp" alt="logo do whatsapp"/></a>
+                </li>
+            </ul>
+        </section>
+    </div>
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>

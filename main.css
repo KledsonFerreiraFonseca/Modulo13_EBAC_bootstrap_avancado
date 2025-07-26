@@ -1,0 +1,128 @@
+*{
+    font-family: "Lobster", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+html{
+    scroll-padding-top: 185px;
+}
+
+.navbar-nav .nav-link.active {
+    background-color: #fff;
+    color: rgb(105, 92, 18);
+}
+
+.navbar-nav .nav-link {
+    color: rgb(105, 92, 18);
+}
+
+.nav-link, section{
+    text-align: center;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: rgb(46, 21, 17);
+    color: rgb(105, 92, 18);
+    padding: 30px;
+    font-size: 20px;
+    z-index: 1;
+}
+
+h1{
+    font-size: 60px;
+    border-bottom: 1px solid;
+}
+
+.navbar-toggler{
+    background-color: rgb(105, 92, 18);
+}
+
+p{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin: 10px;
+}
+
+#roupas, #calcados, #joias, #contato{
+    font-size: 60px;
+    border-top: 3px solid ;
+    margin-bottom: 20px;
+}
+
+#contato li{
+    display: inline;
+}
+
+#contato li a{
+    text-decoration: none;
+}
+
+.list img{
+    height: 150px;
+    padding: 20px;
+}
+
+section .card img{
+    height: 220px;
+}
+
+.carousel-inner img{
+    height: 400px;
+}
+
+.carousel-inner {
+    margin-top: 10px;
+}
+
+/*TABLET*/
+@media screen and (min-width: 641px) and (max-width: 1023px){
+    .container .row{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 1%;
+        row-gap: 2%;
+        width: 0vw;
+        margin-bottom: 30px;
+    }
+
+    html{
+    scroll-padding-top: 415px;
+    }
+
+    .card{
+        width: 35vw;
+        left: 2vw;
+    }
+}
+
+/*CELULAR*/
+@media screen and (max-width: 640px){
+    .container .row{
+        display: block;
+        width: 100vw;
+        margin-bottom: 10px;
+    }
+
+    html{
+    scroll-padding-top: 415px;
+    }
+
+    .card{
+        width: 80vw;
+        margin-bottom: 10px;
+        margin-left: 15px;
+    }
+
+    p{
+    font-size: 18px;
+    }
+
+    .list img{
+    height: 100px;
+    padding: 20px;
+    }
+}
